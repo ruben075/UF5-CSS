@@ -1,0 +1,148 @@
+body{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.todo{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    border-radius: 30px;
+    width: 95%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.todo nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.todo nav ul{
+    list-style: none;  
+    display: flex;
+    justify-content: space-between;
+    
+}
+.todo a, .boton1 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px 10px 20px;
+}
+.foto1{
+    width: 100%;
+    border-radius: 35%;
+}
+.parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 95%;
+    text-align: center;
+    
+}
+.texto{
+    text-align: center;
+}
+.a-1{
+    width: 30%;
+    padding: 10px;
+    background-color: steelblue;
+    border-radius: 30px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.a-2{
+    width: 30%;
+    padding: 10px;
+    background-color: steelblue;
+    border-radius: 30px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.a-3{
+    width: 30%;
+    padding: 10px;
+    background-color: steelblue;
+    border-radius: 30px;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.parte3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    text-align: center;
+    background-color: steelblue;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.parte4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    text-align: center;
+    background-color: steelblue;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    padding-bottom: 15px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0% 12.5%;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+footer nav ul{
+    list-style: none;  
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+}
+footer nav ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+}
+hr{
+    width: 100%;
+    color: grey;
+}
+footer nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color:gray;
+    
+}
+
+
+
+

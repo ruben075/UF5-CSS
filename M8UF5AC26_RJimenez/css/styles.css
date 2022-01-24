@@ -1,0 +1,102 @@
+#todo{
+    align-items: center;
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    height: 890px;
+}
+body{
+    color: white;
+    background-color: black;
+}
+#linia1{
+    height: 70px;
+    width: 400px;
+}
+#a1{
+    background-color: red;
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+#a2{
+    background-color: blue;
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+#linia2 {
+    height: 140px;
+    width: 400px;
+}
+#a3{
+    background-color: yellow;
+    height: 140px;
+    width: 100px;
+    float: left;
+}
+#a4-5{
+    height: 70px;
+    width: 300px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+#a4{
+    background-color: purple;
+    height: 70px;
+    width: 100px;
+}
+#a5{
+    background-color: darkblue;
+    width: 200px;
+    height: 70px;   
+}
+#a6{
+    background-color: pink;
+    height: 70px;
+    width: 100px;
+}
+#a678{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 70px;
+
+}
+#a7{
+    background-color: yellow;
+    height: 70px;
+    width: 100px;
+}
+#a8{
+    background-color: white;
+    height: 70px;
+    width: 100px;
+}
+#linia4{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 400px;    
+}
+#a9{
+    background-color: rgb(168, 131, 238); 
+    height: 70px;
+    width: 100px; 
+}
+#a10{
+    background-color: brown;
+    height: 70px;
+    width: 100px; 
+}
+#a11{
+    background-color: red;
+    height: 70px;
+    width: 100px; 
+}
+#a12{
+    background-color: rgb(117, 1, 1);
+    height: 70px;
+    width: 100px; 
+}

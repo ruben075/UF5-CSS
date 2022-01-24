@@ -1,0 +1,80 @@
+body{
+    background-image: url(../img/IMAGEN.png);
+    background-attachment: fixed;
+}
+table {
+    width: 70%;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:80%
+}
+td .p1{
+    background-color:orangered;
+}
+td .p1:hover{
+    background-color:red;
+}
+td .p2{
+    background-color:orange;
+}
+td .p2:hover{
+    background-color:red;
+}
+td .p3{
+    background-color:goldenrod;
+}
+td .p3:hover{
+    background-color:red;
+}
+td .p4{
+    background-color:gold;
+}
+td .p4:hover{
+    background-color:red;
+}
+td .p5{
+    background-color:yellow;
+}
+td .p5:hover{
+    background-color:red;
+}
+td .p6{
+    background-color:yellowgreen;
+}
+td .p6:hover{
+    background-color:red;
+}
+td .p7{
+    background-color:greenyellow;
+}
+td .p7:hover{
+    background-color:red;
+}
+td .p8{
+    background-color:green;
+}
+td .p8:hover{
+    background-color:red;
+}
+td .p9{
+    background-color:darkgreen;
+}
+td .p9:hover{
+    background-color:red;
+}
+td .p10{
+    background-color:darkolivegreen;
+}
+td .p10:hover{
+    background-color:red;
+}
+.subra {
+    text-decoration: underline;
+}
+.subra2 {
+    text-decoration: overline;
+}
+.subra3 {
+    font-weight: bold;
+}

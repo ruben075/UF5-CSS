@@ -1,0 +1,47 @@
+header{
+    background-color: green;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+header nav ul{
+  list-style: none;  
+  display: flex;
+  justify-content: space-between;
+}
+a{
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   padding: 12px 20px;
+   display: block;
+}
+header nav ul li ul{
+    display: flex;
+    flex-direction: column;
+
+}
+header nav ul li ul{
+    position:absolute;
+    background-color: green;
+}
+header nav ul li ul li{
+    width: 147px;
+    position: relative;
+}
+header nav ul li ul{
+    display: none;
+}
+header nav ul li:hover > ul{
+    display: block;
+}
+a:hover {
+    color: yellow;
+}

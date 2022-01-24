@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+}
+div li{
+    background-color: #0000FF;
+    border: 3px solid;
+    color: white;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 140px;
+    list-style-type: none;
+}
+div li:hover {
+    border-color: red;
+}
+#cap_de_setmana li {
+    background-color: green;
+}
+#cap_de_setmana li:hover {
+    background-color:grey;
+    color: black;
+    font-weight: bold;
+}

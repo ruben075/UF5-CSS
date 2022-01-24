@@ -1,0 +1,181 @@
+h2{
+    text-align: center;
+}
+.todo{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0% 12.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.todo nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.todo nav ul{
+    list-style: none;  
+    display: flex;
+    justify-content: space-between;
+    
+}
+.todo a, .boton1 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px 10px 20px;
+}
+.in1{
+   border-left: solid black 1px;
+}
+.re1{
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+.con1{
+    border-right: black solid 1px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inicio1 nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+.inicio1 nav ul li {
+    width: 160px;
+    color: white;
+}
+nav {
+    width: 100%;
+    max-width: 100%;
+}
+.inicio1{
+    width: 100%;
+}
+.llac{
+    width: 100%;
+}
+.ti2{
+    text-align: center;
+    color: cadetblue;
+}
+.parte2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+.texto{
+    text-align: center;
+}
+.a-1{
+    width: 25%;
+    padding: 15px;
+}
+.a-1-1{
+    width: 100%;
+}
+.a-2{
+    width: 25%;
+    padding: 15px;
+}
+.a-2-2{
+    width: 100%;
+}
+.a-3{
+    width: 25%;
+    padding: 15px;
+}
+.a-3-3{
+    width: 100%;
+}
+.texto{
+    text-align: center;
+    font-size: 15px;
+}
+footer{
+    display: flex;
+    padding-bottom: 15px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 0% 12.5%;
+}
+
+.boton1{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    border:none;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    border-top: gray solid 1px;
+}
+footer nav ul{
+    list-style: none;  
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+}
+footer nav ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+}
+hr{
+    width: 100%;
+    color: grey;
+}
+footer nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color:gray;
+    
+}
+.boton1:hover{
+    opacity: 70%;
+}
+.a-1-1:hover, .a-2-2:hover ,.a-3-3:hover{
+    opacity: 30%;
+
+}
+
+
+
+
+
+
+
+

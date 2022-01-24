@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+body{
+    background-image: url(../img/fons.jpg);
+    background-size: 3000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header, nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#a1{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 50%;
+    width: 115px;
+    height: 90px;
+}
+#a1 div{
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    color: white;
+}
+nav{
+    margin-top: 10px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul li {
+    padding: 10px 5px;
+    margin-left: 10px;
+    background-color: skyblue;
+    border-radius: 40%;
+}
+header nav ul li:first-child{
+    background-color: grey;
+}
+#text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 60px;
+    width: 60%;
+    align-items: center;
+}
+.texto1{
+    font-size: 140px;
+    color: grey;
+}
+#gris1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: grey;
+    margin-top: 80px;
+    width: 100%;
+}
+#padretexto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 30px;
+}
+.caja, .texto3{
+    margin: 0;
+    text-align: center;
+    color:white;
+}
+.gris{
+    width: 100%;
+}
+#ins{
+    color: rgb(189, 15, 44);
+}
+#Fac{
+    color:blue;
+}
+#twi{
+    color:skyblue;
+}
+#fli{
+    color:white;
+}
+#sq{
+    color: yellow;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    margin-bottom: 70px;
+}
